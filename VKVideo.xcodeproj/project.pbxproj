@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5860BBC1E85C39000EB0673 /* MSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = F5860BBB1E85C39000EB0673 /* MSVideo.m */; };
+		F5C116F91E86C1C100BA31AD /* default-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C116F81E86C1C000BA31AD /* default-placeholder.png */; };
+		F5C116FB1E86D5CB00BA31AD /* Placeholder_4-3.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C116FA1E86D5CB00BA31AD /* Placeholder_4-3.svg.png */; };
+		F5C116FE1E86E1A200BA31AD /* MSVideoPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C116FD1E86E1A200BA31AD /* MSVideoPlayerVC.m */; };
 		F5CD97511E7C383E00154E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD97501E7C383E00154E5A /* main.m */; };
 		F5CD97541E7C383E00154E5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD97531E7C383E00154E5A /* AppDelegate.m */; };
 		F5CD97571E7C383E00154E5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD97561E7C383E00154E5A /* ViewController.m */; };
 		F5CD975A1E7C383E00154E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CD97581E7C383E00154E5A /* Main.storyboard */; };
 		F5CD975C1E7C383E00154E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CD975B1E7C383E00154E5A /* Assets.xcassets */; };
 		F5CD975F1E7C383E00154E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CD975D1E7C383E00154E5A /* LaunchScreen.storyboard */; };
+		F5CD97711E7C6AB000154E5A /* MSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD97701E7C6AB000154E5A /* MSLoginViewController.m */; };
+		F5CD97741E7C6BC600154E5A /* MSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD97731E7C6BC600154E5A /* MSServerManager.m */; };
+		F5D12C911E81AB1B007D3FD9 /* MSAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D12C901E81AB1B007D3FD9 /* MSAccessToken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5860BBA1E85C39000EB0673 /* MSVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideo.h; sourceTree = "<group>"; };
+		F5860BBB1E85C39000EB0673 /* MSVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideo.m; sourceTree = "<group>"; };
+		F5C116F81E86C1C000BA31AD /* default-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-placeholder.png"; sourceTree = "<group>"; };
+		F5C116FA1E86D5CB00BA31AD /* Placeholder_4-3.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Placeholder_4-3.svg.png"; sourceTree = "<group>"; };
+		F5C116FC1E86E1A200BA31AD /* MSVideoPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideoPlayerVC.h; sourceTree = "<group>"; };
+		F5C116FD1E86E1A200BA31AD /* MSVideoPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideoPlayerVC.m; sourceTree = "<group>"; };
 		F5CD974C1E7C383E00154E5A /* VKVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CD97501E7C383E00154E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5CD97521E7C383E00154E5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,12 @@
 		F5CD975B1E7C383E00154E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5CD975E1E7C383E00154E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5CD97601E7C383E00154E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CD976F1E7C6AB000154E5A /* MSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginViewController.h; sourceTree = "<group>"; };
+		F5CD97701E7C6AB000154E5A /* MSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoginViewController.m; sourceTree = "<group>"; };
+		F5CD97721E7C6BC600154E5A /* MSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSServerManager.h; sourceTree = "<group>"; };
+		F5CD97731E7C6BC600154E5A /* MSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSServerManager.m; sourceTree = "<group>"; };
+		F5D12C8F1E81AB1B007D3FD9 /* MSAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAccessToken.h; sourceTree = "<group>"; };
+		F5D12C901E81AB1B007D3FD9 /* MSAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAccessToken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 		F5CD974E1E7C383E00154E5A /* VKVideo */ = {
 			isa = PBXGroup;
 			children = (
+				F5CD976E1E7C6AB000154E5A /* Model */,
 				F5CD97521E7C383E00154E5A /* AppDelegate.h */,
 				F5CD97531E7C383E00154E5A /* AppDelegate.m */,
 				F5CD97551E7C383E00154E5A /* ViewController.h */,
@@ -77,6 +97,25 @@
 				F5CD97501E7C383E00154E5A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CD976E1E7C6AB000154E5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5C116FA1E86D5CB00BA31AD /* Placeholder_4-3.svg.png */,
+				F5C116F81E86C1C000BA31AD /* default-placeholder.png */,
+				F5CD976F1E7C6AB000154E5A /* MSLoginViewController.h */,
+				F5CD97701E7C6AB000154E5A /* MSLoginViewController.m */,
+				F5CD97721E7C6BC600154E5A /* MSServerManager.h */,
+				F5CD97731E7C6BC600154E5A /* MSServerManager.m */,
+				F5D12C8F1E81AB1B007D3FD9 /* MSAccessToken.h */,
+				F5D12C901E81AB1B007D3FD9 /* MSAccessToken.m */,
+				F5860BBA1E85C39000EB0673 /* MSVideo.h */,
+				F5860BBB1E85C39000EB0673 /* MSVideo.m */,
+				F5C116FC1E86E1A200BA31AD /* MSVideoPlayerVC.h */,
+				F5C116FD1E86E1A200BA31AD /* MSVideoPlayerVC.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +179,9 @@
 			files = (
 				F5CD975F1E7C383E00154E5A /* LaunchScreen.storyboard in Resources */,
 				F5CD975C1E7C383E00154E5A /* Assets.xcassets in Resources */,
+				F5C116FB1E86D5CB00BA31AD /* Placeholder_4-3.svg.png in Resources */,
 				F5CD975A1E7C383E00154E5A /* Main.storyboard in Resources */,
+				F5C116F91E86C1C100BA31AD /* default-placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5CD97571E7C383E00154E5A /* ViewController.m in Sources */,
+				F5C116FE1E86E1A200BA31AD /* MSVideoPlayerVC.m in Sources */,
 				F5CD97541E7C383E00154E5A /* AppDelegate.m in Sources */,
+				F5CD97711E7C6AB000154E5A /* MSLoginViewController.m in Sources */,
+				F5860BBC1E85C39000EB0673 /* MSVideo.m in Sources */,
+				F5D12C911E81AB1B007D3FD9 /* MSAccessToken.m in Sources */,
+				F5CD97741E7C6BC600154E5A /* MSServerManager.m in Sources */,
 				F5CD97511E7C383E00154E5A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +356,7 @@
 				F5CD97651E7C383E00154E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
